@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "SF regular";
+	src: url("Fonts/SF-Compact-Display-Regular.otf");
+}
+
+@font-face{
+	font-family: "SF bold";
+	src: url("Fonts/SF-Compact-Display-Bold.otf");
+}
+
+
+h1{
+	font: 32pt "SF bold";
+	color: #707070;
+}
+
+h2, p, input{
+	font: 13pt "SF regular";
+	color: #707070
+}
+
+header{
+	margin-top: 100px;
+}
+
+header>h1, header>p{
+	width: 100vw;
+	text-align: center;
+}
+
+
+.input-level-2-left{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #707070;
+	
+	/*cadre à modifier*/
+	width: 270px;
+	height: 50px;
+	
+	display: flex;
+	align-items: center;
+}
+
+.input-level-2-left>p{
+	font-size: 24pt;
+	margin-left: 8px;
+}
+
+.input{
+	border-style: none;
+	width: 300px;
+	height: 35px;
+	padding-left: 8px;
+}
+
+
+.input-level-2-right{
+	width: 100px;
+	height: 50px;
+	margin-left: 50px;
+	
+	display: flex;
+	align-items: center;
+}
+
+.input-level-2-right>p{
+	margin-left: 8px;
+	color: #C4C4C4;
+}
+
+.input-level-1{ /*aligner les éléments*/
+	
+	width: 400px;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 100px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+input{
+	width: 200px;
+	border-style: none;
+	margin-left: 8px;
+}
+
+
+
+.progress-level-1{
+	
+	width: 512px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 100px;
+}
+
+.progress-level-2-top{
+	display: flex;
+	justify-content: space-between;
+}
+
+.percentage{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+progress{
+	width: 420px;
+}
+
+.progress-level-2-bottom{
+	margin-top: 8px;
+	
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.transactions-level-1{
+	margin-top: 100px;
+	
+	width: 512px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+.model-transaction{
+	height: 50px;
+}
+
+hr{
+	margin-bottom: 0px;
+}
+
+.model-infos-transaction{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
